@@ -11,7 +11,6 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
         </header>
-          To get started, edit <code>src/App.js</code> and save to reload.LULcommitnywr3r
         </p>
           <button className="App-button" >Test button</button>
       </div>
