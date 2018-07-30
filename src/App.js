@@ -12,7 +12,7 @@ class App extends Component {
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <p className="App-intro" class="is-size-5-desktop">
-          To get started, edit <code>src/App.js</code> and save to reload.LULcommitnywr3r
+          To get started, edit <code>src/App.js</code> and save to reload.LULhvorerbulma?
         </p>
           <button className="App-button" >Test button</button>
       </div>
