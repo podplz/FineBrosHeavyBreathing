@@ -1,23 +1,19 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+//import logo from '../../logo.svg';
+import '../../App.css';
 import 'bulma/css/bulma.css'
+import '../../components/navbar/navbar'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Navbar from "../../components/navbar/navbar";
 
 class App extends Component {
   render() {
-      function handleClick(e) {
-          e.preventDefault();
-          alert("Logan paul");
-
-      }
-    return (
+      return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-          <button className="App-button button is-primary" onClick={handleClick}>Test button</button>
+          <header>
+              <Navbar/>
+          </header>
+          <button className="App-button button is-primary">Test button</button>
           <div className="tabs is-right is-boxed">
               <ul>
                   <li className="is-active"><a>Pictures</a></li>
